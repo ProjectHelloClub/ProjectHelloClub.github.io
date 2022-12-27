@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  display: block;
+}
+body {
+  background-color: #b6bcc2;
+}
+
+.team-container {
+  height: 1000px;
+}
+
+.team #team-title {
+  font-size: 200%;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  margin: auto;
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+
+.team #team-title h1 {
+  padding-top: 60px;
+}
+
+.team .member {
+  height: 230px;
+  float: inline-end;
+  padding: 10px;
+  position: relative;
+}
+
+.team .member img {
+  height: 200px;
+  float: left;
+}
+
+.member-title {
+  width: 550px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.credits {
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.team .member .member-title {
+  float: right;
+  text-align: center;
+  margin: 1%;
+}
+@media only screen and (max-width: 1000px) {
+  .member-title {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate(0%, 0%);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .team #team-title {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .team #team-title {
+    font-size: 75%;
+  }
+  .team .member {
+    height: 400px;
+  }
+  .team .member .member-title {
+    display: block;
+    height: 150px;
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    float: none;
+  }
+  .team .member img {
+    display: block;
+    margin: auto;
+    float: none;
+    height: 200px;
+  }
+  .credits {
+    display: block;
+  }
+}

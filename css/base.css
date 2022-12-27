@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  display: block;
+}
+
+head {
+  display: none;
+}
+
+.navbar {
+  background-color: #b6bcc2;
+  /*border-bottom: 5px solid white;*/
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar img {
+  height: 80px;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: auto;
+  padding-left: auto;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item {
+  display: flex;
+  height: 80px;
+  width: max-content;
+  margin: 0 5px;
+}
+
+.navbar__links {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  width: max-content;
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: max-content;
+}
+
+.navbar__links:hover {
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.container-footer {
+  float: left;
+  background-color: #b6bcc2;
+  height: 300px;
+  margin: auto;
+}
+
+.container-top {
+  height: 90%;
+}
+
+.container-top-info {
+  float: left;
+  text-align: center;
+  padding: 5%;
+  width: 33%;
+}
+
+.container-bottom {
+  text-align: left;
+  height: 10%;
+}
+
+:link {
+  color: #000000;
+  font-style: normal;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bottom-right {
+  float: right;
+  text-align: right;
+  padding-right: 4%;
+}
+.bottom-left {
+  float: left;
+  text-align: left;
+  padding-left: 4%;
+}
+
+.bottom-right .social-media {
+  float: right;
+  padding-right: 10px;
+}
+
+.bottom-right .social-media img {
+  max-width: 20px;
+}
+.bottom-right #facebook img {
+  max-width: 22px;
+}
+.bottom-right #email img {
+  max-width: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  h3 {
+    font-size: medium;
+  }
+  p {
+    font-size: small;
+  }
+  .container-top-info {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    overflow: scroll;
+  }
+}

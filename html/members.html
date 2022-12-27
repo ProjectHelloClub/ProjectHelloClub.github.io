@@ -1,0 +1,165 @@
+<!Doctype html>
+
+<head>
+    <title>Members</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="This page describes Project Hello.">
+    <meta name="keywords" content="Project Hello, Hello, PH, Project_Hello, Organization, Non-Profit Organization">
+    <meta name="robots" content="all">
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="author" content="Andy Junhyuk Bae">
+    <meta http-equiv="pragma" , content="no cache">
+    <link rel="stylesheet" href="../css/base.css" type="text/css">
+    <style type = "text/css">
+        @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  display: block;
+}
+body {
+  background-color: #b6bcc2;
+}
+
+.team-container {
+  height: 1000px;
+}
+
+.team #team-title {
+  font-size: 200%;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  margin: auto;
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+
+.team #team-title h1 {
+  padding-top: 60px;
+}
+
+.team .member {
+  height: 230px;
+  float: inline-end;
+  padding: 10px;
+  position: relative;
+}
+
+.team .member img {
+  height: 200px;
+  float: left;
+}
+
+.member-title {
+  width: 550px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.credits {
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.team .member .member-title {
+  float: right;
+  text-align: center;
+  margin: 1%;
+}
+@media only screen and (max-width: 1000px) {
+  .member-title {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate(0%, 0%);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .team #team-title {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .team #team-title {
+    font-size: 75%;
+  }
+  .team .member {
+    height: 400px;
+  }
+  .team .member .member-title {
+    display: block;
+    height: 150px;
+    font-size: small;
+    margin: auto;
+    padding: auto;
+    float: none;
+  }
+  .team .member img {
+    display: block;
+    margin: auto;
+    float: none;
+    height: 200px;
+  }
+  .credits {
+    display: block;
+  }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="team-container">
+        <div class="team">
+            <div id="team-title">
+                <h1>Our Current Club Leaders</h1>
+            </div>
+            <div class="member" id="member1">
+                <img src="../images/avatar/Andy.png">
+                <div class="member-title">
+                    <h1>Andy Bae</h1>
+                    <p>Andy is a grade 12 attending Dr. Charles Best Secondary School and has been in the club for a total of 4 years. His favourite hobby is playing basketball.</p>
+                </div>
+               
+            </div>
+            <div class="member" id="member2">
+                <img src="../images/avatar/Jacob.png">
+                <div class="member-title">
+                    <h1>Jacob Wong</h1>
+                    <p>Jacob is a grade 12 attending Dr. Charles Best Secondary School and has been in the club for a total of 4 years. His favourite hobby is playing soccer.</p>
+                </div>
+               
+            </div>
+            <div class="member" id="member3">
+                <img src="../images/avatar/Dayton.png">
+                <div class="member-title">
+                    <h1>Dayton Chan</h1>
+                    <p>Dayton is a grade 12 attending Dr. Charles Best Secondary School and has been in the club for a total of 4 years. His favourite hobby is basketball.</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="credits">
+        <h1>Credits</h1>
+        <div id="credit1">
+            <a href="https://www.flaticon.com/free-icons/young" title="young icons" target="_blank">Young icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/person" title="person icons" target="_blank">Person icons created by Freepik - Flaticon</a>
+        </div>
+    </div>
+
+    <script src="../js/base.js"></script>
+
+    
+</body>
+
+</html>
