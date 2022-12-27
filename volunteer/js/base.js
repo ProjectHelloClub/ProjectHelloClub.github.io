@@ -1,14 +1,14 @@
 var navbar = ` 
 <nav class="navbar">
   <div class="navbar__container">
-    <a href="../html/home.html" id="logo"
+    <a href="index.html" id="logo"
       ><img src="../images/logo/logo.png"
     /></a>
   </div>
 
   <ul class="navbar__menu">
     <li class="navbar__item">
-      <a href="../html/index.html" class="navbar__links">Home</a>
+      <a href="index.html" class="navbar__links">Home</a>
     </li>
     <li class="navbar__item">
       <a href="../html/about.html" class="navbar__links">About</a>
