@@ -2,7 +2,7 @@ var navbar = `
 <nav class="navbar">
   <div class="navbar__container">
     <a href="index.html" id="logo"
-      ><img src="volunteer/images/logo/logo.png"
+      ><img src="../../volunteer/images/logo/logo.png"
     /></a>
   </div>
 
@@ -11,10 +11,10 @@ var navbar = `
       <a href="index.html" class="navbar__links">Home</a>
     </li>
     <li class="navbar__item">
-      <a href="volunteer/html/about.html" class="navbar__links">About</a>
+      <a href="../../volunteer/html/about.html" class="navbar__links">About</a>
     </li>
     <li class="navbar__item">
-      <a href="volunteer/html/members.html" class="navbar__links">Members</a>
+      <a href="../../volunteer/html/members.html" class="navbar__links">Members</a>
     </li>
   </ul>
 </nav>
@@ -45,18 +45,18 @@ var footer = `
             <div class="bottom-right">
                 <div class="social-media" id="facebook">
                     <a href="https://www.facebook.com/pages/category/Community/Project-HELLO-125954690828073/" target="_blank">
-                        <img src="volunteer/images/social/facebook.jpg">
+                        <img src="../../volunteer/images/social/facebook.jpg">
                     </a>
                 </div>
                 <div class="social-media" id="instagram">
                     <a href="https://www.instagram.com/projecthello_/?hl=en" target="_blank">
-                        <img src="volunteer/images/social/instagram.jpg">
+                        <img src="../../volunteer/images/social/instagram.jpg">
                     </a>
                 </div>
   
                 <div class="social-media" id="email">
                     <a href="mailto:PH.project.hello@gmail.com">
-                        <img src="volunteer/images/social/email.jpg">
+                        <img src="../../volunteer/images/social/email.jpg">
                     </a>
                 </div>
             </div>
