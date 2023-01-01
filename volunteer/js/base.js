@@ -8,13 +8,13 @@ var navbar = `
 
   <ul class="navbar__menu">
     <li class="navbar__item">
-      <a href="index.html" class="navbar__links">Home</a>
+      <a href="../index.html" class="navbar__links">Home</a>
     </li>
     <li class="navbar__item">
-      <a href="../../volunteer/html/about.html" class="navbar__links">About</a>
+      <a href="../about.html" class="navbar__links">About</a>
     </li>
     <li class="navbar__item">
-      <a href="../../volunteer/html/members.html" class="navbar__links">Members</a>
+      <a href="../members.html" class="navbar__links">Members</a>
     </li>
   </ul>
 </nav>
