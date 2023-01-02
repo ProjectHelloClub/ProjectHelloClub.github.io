@@ -16,6 +16,9 @@ var navbar = `
     <li class="navbar__item">
       <a href="../members.html" class="navbar__links">Members</a>
     </li>
+    <li class="navbar__item">
+      <a href="../index.html" class="navbar__links">Beyond Hello</a>
+    </li>
   </ul>
 </nav>
 `;
