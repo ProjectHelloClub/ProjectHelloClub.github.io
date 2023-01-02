@@ -7,7 +7,7 @@ body {
   background-color: #b6bcc2;
 }
 
-.team-container {
+.about {
   height: 1000px;
 }
 
@@ -63,37 +63,5 @@ body {
     top: auto;
     left: auto;
     transform: translate(0%, 0%);
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .team #team-title {
-    font-size: 100%;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .team #team-title {
-    font-size: 75%;
-  }
-  .team .member {
-    height: 400px;
-  }
-  .team .member .member-title {
-    display: block;
-    height: 150px;
-    font-size: small;
-    margin: auto;
-    padding: auto;
-    float: none;
-  }
-  .team .member img {
-    display: block;
-    margin: auto;
-    float: none;
-    height: 200px;
-  }
-  .credits {
-    display: none;
   }
 }
