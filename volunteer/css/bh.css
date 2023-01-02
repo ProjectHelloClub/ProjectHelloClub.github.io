@@ -11,7 +11,7 @@ body {
   height: 1000px;
 }
 
-.team #team-title {
+.about #explination {
   font-size: 200%;
   font-family: "roboto", sans-serif;
   text-align: center;
@@ -21,47 +21,6 @@ body {
   background-color: white;
 }
 
-.team #team-title h1 {
+.about #explination h1 {
   padding-top: 60px;
-}
-
-.team .member {
-  height: 230px;
-  float: inline-end;
-  padding: 10px;
-  position: relative;
-}
-
-.team .member img {
-  height: 200px;
-  float: left;
-}
-
-.member-title {
-  width: 550px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.credits {
-  display: none;
-}
-
-.team .member .member-title {
-  float: right;
-  text-align: center;
-  margin: 1%;
-}
-@media only screen and (max-width: 1000px) {
-  .member-title {
-    width: 60%;
-    margin: auto;
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: translate(0%, 0%);
-  }
 }
