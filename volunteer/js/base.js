@@ -17,7 +17,7 @@ var navbar = `
       <a href="../members.html" class="navbar__links">Members</a>
     </li>
     <li class="navbar__item">
-      <a href="../index.html" class="navbar__links">Beyond Hello</a>
+      <a href="../beyondhello.html" class="navbar__links">Beyond Hello</a>
     </li>
   </ul>
 </nav>
