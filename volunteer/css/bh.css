@@ -3,12 +3,13 @@
   box-sizing: border-box;
   display: block;
 }
+
 body {
-  background-color: #b6bcc2;
+  background-color: #ffffff;
 }
 
 .about {
-  height: 1000px;
+  height: 1050px;
 }
 
 .about #explination {
@@ -18,9 +19,70 @@ body {
   margin: auto;
   height: 350px;
   width: 100%;
-  background-color: white;
+  background-color: #b6bcc2;
 }
 
 .about #explination h1 {
   padding-top: 60px;
+}
+
+.about #explination p {
+  font-size: 20px;
+  margin: 5%;
+}
+
+.about #amazon_link {
+  height: 700px;
+  display: block;
+}
+
+.about #amazon_link img {
+  height: 700px;
+  margin: auto;
+  padding: auto;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(46, 46, 46);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+.story {
+  height: 350px;
+}
+
+.story #intro {
+  font-size: 200%;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  margin: auto;
+  height: 350px;
+  width: 100%;
+  background-color: #b6bcc2;
+}
+
+.story #intro h1 {
+  padding-top: 60px;
+}
+
+.story #intro p {
+  font-size: 20px;
+  margin: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
